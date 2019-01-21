@@ -1,0 +1,7 @@
+Input file should contain these values in the following order: size of the grid(N), number of iterations(0 means program runs until stationary state), temperature lower wall, temperature right wall, temperature upper wall, temperature left wall, initial temperature of the inner area, gamma
+
+Size of the grid and number of iterations should be integers, temperatures and gamma real numbers.
+
+For example: 100 0 120 50 70 120 60 0.05
+
+Program's output is output.jpg which is a surface plot of the final temperatures.
