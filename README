@@ -1,3 +1,7 @@
+This is a final project of Scientific Computing II (5 credits, autumn 2017). Object of this project was to write a program that calculates how heat conducts in two-dimensional space. Program calculates heat conducting in this 2D area until temperatures reaches stationary state. In most times the program calculates thousands of iterations before the stationary state is reached so probably only smart way to calculate the heat conducting is to write a program that does it for you in a few seconds.
+
+This program contains computing which is written on Fortran90 (main.f90) and data visualization is done with Octave/MATLAB (plot.m).
+
 Input file should contain these values in the following order: size of the grid(N), number of iterations(0 means program runs until stationary state), temperature lower wall, temperature right wall, temperature upper wall, temperature left wall, initial temperature of the inner area, gamma
 
 Size of the grid and number of iterations should be integers, temperatures and gamma real numbers.
